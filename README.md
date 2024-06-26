@@ -85,7 +85,21 @@ project-template/
 ├── tailwind.config.js  
 ├── package.json  
 ├── composer.json  
-└── .env.example  
+└── .env.example 
+
+## Commands
+
+I have created some commands to simplify the creation of Vue files:
+
+- `php artisan make:inertia-page {filename}`  
+  This command will create a .vue file in the `resources/js/Pages/` path.
+
+- `php artisan make:inertia-crud {foldername}`  
+  This command will create a folder under the `resources/js/Pages/` path with Index.vue, Edit.vue, and Create.vue files.
+
+- `php artisan make:inertia-component {componentname}`  
+  This command will create a .vue file in the `resources/js/Components/` path.
+
 
 ## Contributing
 
