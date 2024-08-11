@@ -6,7 +6,7 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^5.0.5",
+        "@vitejs/plugin-vue": "^5.1.2",
         "autoprefixer": "^10.4.19",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
@@ -15,6 +15,8 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "@inertiajs/vue3": "^1.2.0"
+        "@inertiajs/vue3": "^1.2.0",
+        "vite-plugin-laravel-translations": "^0.2.2",
+        "vue-i18n": "^9.13.1"
     }
 }
